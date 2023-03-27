@@ -55,7 +55,9 @@ public class Main {
             numberTwo = romNumeric2.getNumeric();
 
         } else if (!isRomNumericOne && isRomNumericTwo || isRomNumericOne && !isRomNumericTwo) {
-            throw new RuntimeException("используются одновременно разные системы счисления");
+            throw new RuntimeException(
+                    "используются одновременно разные системы счисления " +
+                            "или вы ввели числа не от 1 до 10");
         }
 
         if(numberOne == 0 && numberTwo == 0) {
