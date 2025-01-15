@@ -1,3 +1,5 @@
+package com.example;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -6,15 +8,21 @@ public class Main {
 
     static boolean isRomNumericOne = false, isRomNumericTwo = false;
     static int numberOne = 0, numberTwo = 0, numberAnswer = 0;
+    static LCD1602 lcd;
+
     public static void main(String[] args) throws IOException {
+        lcd = new LCD1602();
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String input = reader.readLine();
-        System.out.println(calc(input));
+        String result = calc(input);
+        System.out.println(result);
+        // Вывод результата на экран дисплея может быть только до 16 символов на одной строке
+        lcd.displayText(formatForLCD(result));
     }
 
-    public static String calc (String input){
+    public static String calc (String input) {
 
-        String[] strings =input.split(" ");
+        String[] strings = input.split(" ");
 
         if(strings.length != 3){
             throw new RuntimeException("формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
@@ -88,6 +96,13 @@ private static String giveAnswer(int numberAnswer){
             }
         }
         return builder.toString();
+    }
+
+    private static String formatForLCD(String text) {
+        if (text.length() > 16) {
+            return text.substring(0, 16); // Обрезаем строку до 16 символов
+        }
+        return text;
     }
 
 }

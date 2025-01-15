@@ -4,6 +4,10 @@
     <groupId>com.example</groupId>
     <artifactId>your-project</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
     <dependencies>
         <!-- Pi4J dependency -->
         <dependency>
@@ -11,6 +15,5 @@
             <artifactId>pi4j-core</artifactId>
             <version>1.4</version>
         </dependency>
-        <!-- Other dependencies -->
     </dependencies>
 </project>
