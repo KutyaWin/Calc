@@ -91,3 +91,8 @@ private static String giveAnswer(int numberAnswer){
     }
 
 }
+
+// Добавить вывод римских чисел на Экран оборудования (само оборудование надо назвать)
+// и где это происходит, в какой части кода (можно без оборудования)
+//https://www.ozon.ru/product/simvolnyy-displey-lcd1602-bez-i2c-zelenyy-1-sht-1331084666/?asb=sJS5tf5WN7hc5wZUZ%252BWPX7CV5oULCmB8YKl4Ae3zp8Y%253D&asb2=jeSCZAIvVlxPDAygQpQLTvVpqoqGRs51Be-kl2lhYvlBghJvwutUb6ODunjd1UB0&avtc=1&avte=4&avts=1736934160&keywords=символьный+дисплей+1602&reviewsVariantMode=2
+// оборудование  - Символьный дисплей LCD1602 без i2c зеленый 1 шт

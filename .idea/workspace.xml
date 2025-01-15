@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ac123d3-eb16-4b58-89ef-92f533135205" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCD1602.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RomNumeric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomNumeric.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -27,6 +29,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2NS9fUktqcVj8w0pItk3Co3rnGH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,10 +40,42 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,8 +84,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679646726475</updated>
+      <workItem from="1736932098410" duration="695000" />
+      <workItem from="1736933731241" duration="719000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -56,6 +98,62 @@
         <entry key="MAIN">
           <value>
             <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="911f43">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/Main.java" />
+                  <option value="$PROJECT_DIR$/src/RomNumeric.java" />
+                </list>
+              </option>
+              <option name="id" value="911f43" />
+              <option name="initiateTms" value="1736934290884" />
+              <option name="request" value=" у меня есть калькулятор для работы с обычными и римскими цифрами на java, как сделать чтобы ответ операции математической выводился на Символьный дисплей LCD1602 без i2c зеленый 1 шт" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Для того чтобы выводить результат на Символьный дисплей LCD1602 без i2c, вам потребуется библиотека для работы с этим дисплеем через GPIO. В Java можно использовать библиотеку Pi4J, которая предоставляет интерфейс для работы с GPIO на Raspberry Pi.&#10;&#10;Вот пример того, как можно интегрировать вывод на LCD1602 в ваш проект:&#10;&#10;1. Добавьте зависимость Pi4J в ваш проект. Если вы используете Maven, добавьте следующий блок в ваш `pom.xml`:&#10;&#10;```xml&#10;&lt;dependency&gt;&#10;    &lt;groupId&gt;com.pi4j&lt;/groupId&gt;&#10;    &lt;artifactId&gt;pi4j-core&lt;/artifactId&gt;&#10;    &lt;version&gt;1.4&lt;/version&gt;&#10;&lt;/dependency&gt;&#10;```&#10;&#10;2. Создайте класс для работы с LCD1602. Этот класс будет инициализировать дисплей и предоставлять метод для вывода текста:&#10;&#10;```java&#10;import com.pi4j.io.gpio.GpioController;&#10;import com.pi4j.io.gpio.GpioFactory;&#10;import com.pi4j.io.gpio.GpioPinDigitalOutput;&#10;import com.pi4j.io.gpio.PinState;&#10;import com.pi4j.io.gpio.RaspiPin;&#10;import com.pi4j.wiringpi.Lcd;&#10;&#10;public class LCD1602 {&#10;    private final int lcdHandle;&#10;&#10;    public LCD1602() {&#10;        // Initialize GPIO controller&#10;        final GpioController gpio = GpioFactory.getInstance();&#10;&#10;        // Initialize LCD&#10;        lcdHandle = Lcd.lcdInit(2, 16, 4, // number of row, column and bit mode&#10;                RaspiPin.GPIO_11, // RS pin&#10;                RaspiPin.GPIO_10, // Strobe pin&#10;                RaspiPin.GPIO_06, // Data bit 1&#10;                RaspiPin.GPIO_05, // Data bit 2&#10;                RaspiPin.GPIO_04, // Data bit 3&#10;                RaspiPin.GPIO_01, // Data bit 4&#10;                0, 0, 0, 0); // Unused pins&#10;&#10;        if (lcdHandle == -1) {&#10;            System.out.println(&quot;LCD initialization failed!&quot;);&#10;            return;&#10;        }&#10;&#10;        // Clear LCD&#10;        Lcd.lcdClear(lcdHandle);&#10;    }&#10;&#10;    public void displayText(String text) {&#10;        Lcd.lcdClear(lcdHandle);&#10;        Lcd.lcdHome(lcdHandle);&#10;        Lcd.lcdPuts(lcdHandle, text);&#10;    }&#10;}&#10;```&#10;&#10;3. В классе `Main` создайте экземпляр `LCD1602` и используйте его для вывода результата на дисплей:&#10;&#10;```java&#10;import java.io.BufferedReader;&#10;import java.io.IOException;&#10;import java.io.InputStreamReader;&#10;&#10;public class Main {&#10;&#10;    static boolean isRomNumericOne = false, isRomNumericTwo = false;&#10;    static int numberOne = 0, numberTwo = 0, numberAnswer = 0;&#10;    static LCD1602 lcd;&#10;&#10;    public static void main(String[] args) throws IOException {&#10;        lcd = new LCD1602();&#10;        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));&#10;        String input = reader.readLine();&#10;        String result = calc(input);&#10;        System.out.println(result);&#10;        lcd.displayText(result);&#10;    }&#10;&#10;    public static String calc(String input) {&#10;        String[] strings = input.split(&quot; &quot;);&#10;&#10;        if (strings.length != 3) {&#10;            throw new RuntimeException(&quot;формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)&quot;);&#10;        }&#10;        variableIsRomanOrArabic(strings[0], strings[2]);&#10;        initNumberOneAndTwo(strings[0], strings[2]);&#10;        numberAnswer = initAnswer(strings[1]);&#10;        return giveAnswer(numberAnswer);&#10;    }&#10;&#10;    private static int initAnswer(String operation) {&#10;        switch (operation) {&#10;            case &quot;+&quot;:&#10;                numberAnswer = numberOne + numberTwo;&#10;                break;&#10;            case &quot;-&quot;:&#10;                numberAnswer = numberOne - numberTwo;&#10;                break;&#10;            case &quot;*&quot;:&#10;                numberAnswer = numberOne * numberTwo;&#10;                break;&#10;            case &quot;/&quot;:&#10;                numberAnswer = numberOne / numberTwo;&#10;                break;&#10;            default:&#10;                throw new RuntimeException(&quot;нет такой операции&quot;);&#10;        }&#10;        return numberAnswer;&#10;    }&#10;&#10;    private static void variableIsRomanOrArabic(String one, String two) {&#10;        for (RomNumeric value : RomNumeric.values()) {&#10;            if (one.equals(String.valueOf(value))) {&#10;                isRomNumericOne = true;&#10;            }&#10;            if (two.equals(String.valueOf(value))) {&#10;                isRomNumericTwo = true;&#10;            }&#10;        }&#10;    }&#10;&#10;    private static void initNumberOneAndTwo(String one, String two) {&#10;        if (isRomNumericOne &amp;&amp; isRomNumericTwo) {&#10;            RomNumeric romNumeric1 = RomNumeric.valueOf(one);&#10;            RomNumeric romNumeric2 = RomNumeric.valueOf(two);&#10;            numberOne = romNumeric1.getNumeric();&#10;            numberTwo = romNumeric2.getNumeric();&#10;        } else if (!isRomNumericOne &amp;&amp; isRomNumericTwo || isRomNumericOne &amp;&amp; !isRomNumericTwo) {&#10;            throw new RuntimeException(&#10;                    &quot;используются одновременно разные системы счисления &quot; +&#10;                            &quot;или вы ввели числа не от 1 до 10&quot;);&#10;        }&#10;&#10;        if (numberOne == 0 &amp;&amp; numberTwo == 0) {&#10;            numberOne = Integer.parseInt(one);&#10;            numberTwo = Integer.parseInt(two);&#10;        }&#10;    }&#10;&#10;    private static String giveAnswer(int numberAnswer) {&#10;        if (isRomNumericOne &amp;&amp; isRomNumericTwo) {&#10;            if (numberAnswer &gt; 0) {&#10;                return romanToArabic(numberAnswer);&#10;            } else {&#10;                throw new RuntimeException(&quot;в римской системе нет отрицательных чисел&quot;);&#10;            }&#10;        }&#10;        return String.valueOf(numberAnswer);&#10;    }&#10;&#10;    public static String romanToArabic(int number) {&#10;        StringBuilder builder = new StringBuilder();&#10;&#10;        for (RomNumeric romanNumeric : RomNumeric.values()) {&#10;            while (number &gt;= romanNumeric.getNumeric()) {&#10;                builder.append(romanNumeric.name());&#10;                number -= romanNumeric.getNumeric();&#10;            }&#10;        }&#10;        return builder.toString();&#10;    }&#10;}&#10;```&#10;&#10;Теперь, когда вы запускаете программу и вводите математическую операцию, результат будет отображаться на Символьном дисплее LCD1602. Убедитесь, что ваш Raspberry Pi настроен правильно и подключен к дисплею в соответствии с указанными GPIO пинами." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1736934307378" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/Main.java" />
+                  <option value="$PROJECT_DIR$/src/RomNumeric.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="fd7432">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/LCD1602.java" />
+                </list>
+              </option>
+              <option name="id" value="fd7432" />
+              <option name="initiateTms" value="1736934429715" />
+              <option name="request" value=" How to fix the following error:&#10;Cannot resolve symbol 'pi4j'" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="The error &quot;Cannot resolve symbol 'pi4j'&quot; typically indicates that the Pi4J library is not correctly added to your project's dependencies. Here are the steps to ensure that the Pi4J library is properly included in your project:&#10;&#10;### Using Maven&#10;&#10;If you are using Maven, you need to add the Pi4J dependency to your `pom.xml` file. Here is how you can do it:&#10;&#10;1. Open your `pom.xml` file.&#10;2. Add the following dependency inside the `&lt;dependencies&gt;` section:&#10;&#10;```xml&#10;&lt;dependency&gt;&#10;    &lt;groupId&gt;com.pi4j&lt;/groupId&gt;&#10;    &lt;artifactId&gt;pi4j-core&lt;/artifactId&gt;&#10;    &lt;version&gt;1.4&lt;/version&gt;&#10;&lt;/dependency&gt;&#10;```&#10;&#10;Your `pom.xml` should look something like this:&#10;&#10;```xml&#10;&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;    xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;&#10;    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;&#10;    &lt;groupId&gt;com.example&lt;/groupId&gt;&#10;    &lt;artifactId&gt;your-project&lt;/artifactId&gt;&#10;    &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;&#10;    &lt;dependencies&gt;&#10;        &lt;!-- Pi4J dependency --&gt;&#10;        &lt;dependency&gt;&#10;            &lt;groupId&gt;com.pi4j&lt;/groupId&gt;&#10;            &lt;artifactId&gt;pi4j-core&lt;/artifactId&gt;&#10;            &lt;version&gt;1.4&lt;/version&gt;&#10;        &lt;/dependency&gt;&#10;        &lt;!-- Other dependencies --&gt;&#10;    &lt;/dependencies&gt;&#10;&lt;/project&gt;&#10;```&#10;&#10;3. Save the `pom.xml` file and update your Maven project. In most IDEs like IntelliJ IDEA or Eclipse, you can right-click on the project and select &quot;Maven&quot; -&gt; &quot;Reload Project&quot; or &quot;Update Project&quot;.&#10;&#10;### Using Gradle&#10;&#10;If you are using Gradle, you need to add the Pi4J dependency to your `build.gradle` file. Here is how you can do it:&#10;&#10;1. Open your `build.gradle` file.&#10;2. Add the following line inside the `dependencies` section:&#10;&#10;```groovy&#10;dependencies {&#10;    implementation 'com.pi4j:pi4j-core:1.4'&#10;    // Other dependencies&#10;}&#10;```&#10;&#10;Your `build.gradle` should look something like this:&#10;&#10;```groovy&#10;plugins {&#10;    id 'java'&#10;}&#10;&#10;group 'com.example'&#10;version '1.0-SNAPSHOT'&#10;&#10;repositories {&#10;    mavenCentral()&#10;}&#10;&#10;dependencies {&#10;    implementation 'com.pi4j:pi4j-core:1.4'&#10;    // Other dependencies&#10;}&#10;```&#10;&#10;3. Save the `build.gradle` file and refresh your Gradle project. In most IDEs like IntelliJ IDEA or Eclipse, you can right-click on the project and select &quot;Gradle&quot; -&gt; &quot;Refresh Gradle Project&quot;.&#10;&#10;### Manually Adding the JAR&#10;&#10;If you are not using a build tool like Maven or Gradle, you can manually download the Pi4J JAR file and add it to your project:&#10;&#10;1. Download the Pi4J JAR file from the [Pi4J GitHub releases page](https://github.com/Pi4J/pi4j-v1/releases).&#10;2. Place the downloaded JAR file in a `lib` directory within your project.&#10;3. Add the JAR file to your project's classpath. In most IDEs like IntelliJ IDEA or Eclipse, you can do this by right-clicking on the JAR file and selecting &quot;Add to Library&quot; or &quot;Add to Build Path&quot;.&#10;&#10;### Example Project Structure&#10;&#10;Here is an example of how your project structure might look after adding the Pi4J dependency:&#10;&#10;```&#10;your-project/&#10;├── src/&#10;│   ├── main/&#10;│   │   ├── java/&#10;│   │   │   └── com/&#10;│   │   │       └── example/&#10;│   │   │           └── Main.java&#10;│   │   └── resources/&#10;│   └── test/&#10;│       ├── java/&#10;│       └── resources/&#10;├── lib/&#10;│   └── pi4j-core-1.4.jar&#10;├── pom.xml&#10;└── build.gradle&#10;```&#10;&#10;After following these steps, the Pi4J library should be correctly added to your project, and the &quot;Cannot resolve symbol 'pi4j'&quot; error should be resolved." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1736934441597" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/LCD1602.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
           </value>
         </entry>
       </map>
