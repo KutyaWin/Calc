@@ -30,5 +30,8 @@ scp target/your-project-1.0-SNAPSHOT.jar pi@raspberrypi.local:/home/pi/
 ssh pi@raspberrypi.local
 java -jar /home/pi/your-project-1.0-SNAPSHOT.jar
 
-Шаг 4: Запуск приложения
+ШАГ 4: запуск андроид - клиента
+
+Шаг 5: выполнение программы в общем 
 После выполнения всех вышеуказанных шагов, ваше приложение должно запуститься на Raspberry Pi и взаимодействовать с дисплеем LCD1602.
+
