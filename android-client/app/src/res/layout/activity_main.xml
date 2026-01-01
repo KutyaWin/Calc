@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <EditText
+            android:id="@+id/number1Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Первое число"
+            android:inputType="text"/>
+
+    <Spinner
+            android:id="@+id/operationSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/operations"
+            android:layout_marginTop="8dp"/>
+
+    <EditText
+            android:id="@+id/number2Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Второе число"
+            android:inputType="text"
+            android:layout_marginTop="8dp"/>
+
+    <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вычислить"
+            android:layout_marginTop="16dp"/>
+
+    <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+</LinearLayout>
